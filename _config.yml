@@ -43,7 +43,7 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "Do you want own the web page?"
+  - text: "우리 가게의 홈페이지를 원하세요?"
 
 ########
 # Blog #
@@ -64,11 +64,20 @@ disqus-shortname: "panossakkos"
 
 events:
   - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "Coffee"
+    description: "Free<br>
+                  Make your web page"
   - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "Movie"
+    description: "$6.9 / Monthly<br>
+                  Make your web page<br>
+                  Auto update"
+  - image: "/img/career/default.png"
+    date: "Dining"
+    description: "$14.9 / Monthly<br>
+                  Make your web page<br>
+                  Auto update<br>
+                  Set your domain"
 
 # First image of the Career timeline
 career-img: "/img/career/default.png"
