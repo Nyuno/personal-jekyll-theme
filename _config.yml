@@ -1,14 +1,14 @@
 
 # Site settings
 
-url: "http://panossakkos.github.io"
+url: "http://rehashism.com"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /personal-jekyll-theme
+baseurl: /service
 
 google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
@@ -16,9 +16,9 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Rehashism"
 lang: "en"
-title: "{ John Smith }"
+title: "Rehashism"
 favicon: "/img/favicon.ico"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
@@ -37,14 +37,13 @@ me-img: "/img/jetpacktocat.png"
 
 dynamic-typing: True
 shuffle: True	# Shuffle the lines.
-loop: True
+loop: False
 loop-count:	False # Set False for infinite loop, or set any number for finite loop.
 type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Do you want own the web page?"
 
 ########
 # Blog #
@@ -78,7 +77,7 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "rehashism@gmail.com"
 
 ##################
 # Social Buttons #
@@ -86,15 +85,11 @@ email: "your@email.here"
 
 social:
   - title: "facebook"
-    url: "http://facebook.com/"
+    url: "http://facebook.com/nyunohyuno"
   - title: "twitter"
     url: "http://twitter.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
-  - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "rss"
-    url: "/feed.xml"
+  - title: "instagram"
+    url: "https://instagram.com/hyeonho_shin"
 
 ############
 # 404 page #
@@ -112,8 +107,7 @@ social:
 
 pages_list:
   About: 'about'
-  Blog: 'blog'
-  Career: 'career'
+  Pricing: 'pricing'
   Contact: 'contact'
 
 # Pagination path
